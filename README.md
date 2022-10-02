@@ -18,7 +18,7 @@ We’re establishing a board portal for [Atlanta Habitat for Humanity](https://a
 **Backend developers:** <br>
 [Angelina Ying](https://github.com/AngelinaYing) <br>
 [Harry Wu](https://github.com/ywu496) <br>
-[FLora Chen](https://github.com/Flora-Chen6)
+[Flora Chen](https://github.com/Flora-Chen6)
 
 ## TECHNOLOGIES & STACK:
 Salesforce APIs, ReactJS, Express(NodeJS), Heroku

@@ -1,6 +1,6 @@
 # HABITAT
+<img width="500" src="https://user-images.githubusercontent.com/97700939/193470605-e3c0c7a7-3d26-4ceb-ae91-bf85b5502910.png">
 
-![atlhbt](https://user-images.githubusercontent.com/97700939/193470605-e3c0c7a7-3d26-4ceb-ae91-bf85b5502910.png)
 
 ## MISSION:
 We’re establishing a board portal for [Atlanta Habitat for Humanity](https://atlantahabitat.org/), an organization that transforms communities by acting as a catalyst for neighbourhood revitalization through education, innovative development, partnerships, and long-term relationships with families. 

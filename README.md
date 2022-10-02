@@ -10,12 +10,12 @@ We’re establishing a board portal for Atlanta Habitat for Humanity, an organiz
 <br>
 
 ## TEAM MEMBER:
-**Frontend developers:**
+**Frontend developers:** <br>
 [Naye Li](https://github.com/nayenotyet) <br>
-[Bella Li (also Scrum Master)](https://github.com/floatingtortoise) <br>
-[Anna Liu (also Product Owner)](https://github.com/annlwj)
+[Bella Li (Scrum Master)](https://github.com/floatingtortoise) <br>
+[Anna Liu (Product Owner)](https://github.com/annlwj)
 
-**Backend developers:**
+**Backend developers:** <br>
 [Angelina Ying](https://github.com/AngelinaYing) <br>
 [Harry Wu](https://github.com/ywu496) <br>
 [FLora Chen](https://github.com/Flora-Chen6)

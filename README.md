@@ -20,5 +20,5 @@ We’re establishing a board portal for [Atlanta Habitat for Humanity](https://a
 [Harry Wu](https://github.com/ywu496) <br>
 [FLora Chen](https://github.com/Flora-Chen6)
 
-## TECHLOGIES & STACK:
+## TECHNOLOGIES & STACK:
 Salesforce APIs, ReactJS, Express(NodeJS), Heroku

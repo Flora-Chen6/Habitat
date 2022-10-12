@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import LoginForm from "./components/LoginForm";
+import '/Users/lilin/WebstormProjects/habitat/src/components/index.css';
+
 
 function App() {
   const adminUser = {
@@ -12,7 +14,7 @@ const [error,setError] = useState ("");
 
 const Login = details => {
   console.log(details);
-  if (details.email == adminUser.email && details.password == adminUser.password){
+  if (details.email === adminUser.email && details.password === adminUser.password){
     console.log("Logged in");
     setUser({
       name: details.name,
@@ -31,7 +33,7 @@ const Logout = () => {
 
   return (
     <div className="App">
-     {(user.email != "") ? (
+     {(user.email !== "") ? (
       <div className = "Welcome">
         <h2> Welcome, <span> {user.name}</span></h2>
         <p> 

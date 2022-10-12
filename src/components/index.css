@@ -4,33 +4,26 @@ body {
 }
 
 body {
-    display: flex;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: white;
-}
-
-.App {
-    height: 100hv;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#ffcb00;
+    background-color:black;
 }
 
 
-form.form-inner {
+.form-inner {
     position: relative;
     display: block;
-    background-color: #54d2d2;
     padding: 30px;
     z-index: 2;
-
+    text-align: center;
 }
 
-form.form-inner h1 {
-    color: red;
+.form-inner h1 {
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;

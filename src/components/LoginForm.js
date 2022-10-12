@@ -11,13 +11,13 @@ function LoginForm( { Login, error}) {
     }
 
   return (
-      <body className="text-center">
-      <main className="form-signin w-200 d-flex justify-content-center">
+      <body className="d-flex">
+      <main className="form-signin w-400">
         <form onSubmit = {submitHandler}>
             <div className = "form-inner">
-                <img className="d-flex justify-content-center mb-4" src="https://donatestock.com/sites/default/files/styles/de2e/public/2021-03/AHFH_Color-With-New-Tagline_RGB_lo%20res_0.png?itok=tozizJGq"
+                <img className="mb-4" src="https://donatestock.com/sites/default/files/styles/de2e/public/2021-03/AHFH_Color-With-New-Tagline_RGB_lo%20res_0.png?itok=tozizJGq"
                      alt="no show" width="250" height="100"></img>
-                <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+                <h1 className="h3 mb-4 fw-normal w-400">Please sign in</h1>
                 {(error !== '')? (<div className = 'error'> {error} </div>):''}
 
                 <div className="form-floating">

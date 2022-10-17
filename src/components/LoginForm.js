@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '/Users/lilin/WebstormProjects/habitat/src/components/index.css';
+// import '/Users/lilin/WebstormProjects/habitat/src/components/index.css';
 
 function LoginForm( { Login, error}) {
     const [details, setDetails] = useState({name: '', email:'', password:''});

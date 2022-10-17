@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import LoginForm from "./components/LoginForm";
-import 'habitat/src/components/index.css';
+import './components/index.css';
 
 
 function App() {

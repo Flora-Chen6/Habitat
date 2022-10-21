@@ -12,8 +12,7 @@ function LoginForm( { Login, error}) {
 
   return (
       <body className="d-flex justify-content-center">
-
-        <main className="form-signin">
+        <main className="form-signin bg-light">
             <img className="mb-4" src="https://donatestock.com/sites/default/files/styles/de2e/public/2021-03/AHFH_Color-With-New-Tagline_RGB_lo%20res_0.png?itok=tozizJGq"
                  alt="no show" width="260" height="110"></img>
             <h1 className="h3 mb-4 fw-normal w-1000">Sign In As Board Member</h1>

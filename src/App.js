@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import LoginForm from "./components/LoginForm";
+import LandPage from "./components/LandPage";
 import './components/index.css';
 
 
@@ -34,16 +35,17 @@ const Logout = () => {
   return (
     <div className="App">
      {(user.email !== "") ? (
-      <div className = "Welcome">
-        <h2> Welcome, <span> {user.name}</span></h2>
-        <p> 
-        email: <span> {user.email}</span> <br></br>
-        contact: xxxx <br></br>
-        project: xxxx 
-        </p>
-        <button onClick = {Logout}> Logout</button>
-
-      </div>
+      // <div className = "Welcome">
+      //   <h2> Welcome, <span> {user.name}</span></h2>
+      //   <p>
+      //   email: <span> {user.email}</span> <br></br>
+      //   contact: xxxx <br></br>
+      //   project: xxxx
+      //   </p>
+      //   <button onClick = {Logout}> Logout</button>
+      //
+      // </div>
+         LandPage()
     ): <LoginForm Login = {Login} error = {error} />} 
     </div>
   );

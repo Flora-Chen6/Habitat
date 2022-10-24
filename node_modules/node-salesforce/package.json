@@ -1,0 +1,50 @@
+{
+  "author": "Shinichi Tomita <shinichi.tomita@gmail.com>",
+  "name": "node-salesforce",
+  "description": "Salesforce API Connection Library for Node.js Applications",
+  "keywords": [
+    "salesforce",
+    "salesforce.com",
+    "sfdc",
+    "force.com",
+    "database.com"
+  ],
+  "homepage": "http://github.com/stomita/node-salesforce",
+  "version": "0.8.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stomita/node-salesforce.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/stomita/node-salesforce/raw/master/LICENSE"
+    }
+  ],
+  "main": "./lib/salesforce",
+  "scripts": {
+    "test": "mocha test/*.test.js --require ./test/helper/assert.js --reporter spec"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "sfjs": "./bin/sfjs",
+    "sfcoffee": "./bin/sfcoffee"
+  },
+  "dependencies": {
+    "async": "0.1.x",
+    "coffee-script": "1.6.x",
+    "faye": "0.8.x",
+    "q": "0.9.x",
+    "request": "2.12.x",
+    "underscore": "1.4.x",
+    "xml2js": "0.4.x"
+  },
+  "devDependencies": {
+    "mocha": "1.15.x",
+    "power-assert": "0.2.x",
+    "espower-loader": "0.1.x",
+    "node-phantom": "0.2.x"
+  }
+}

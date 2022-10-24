@@ -5,12 +5,15 @@
   "main": "loginPortal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon loginPortal.js" 
+    "devStart": "nodemon loginPortal.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsforce": "^1.11.0",
+    "node-salesforce": "^0.8.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

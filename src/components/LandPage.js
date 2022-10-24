@@ -40,50 +40,96 @@ function LandPage() {
                         </ul>
                     </div>
                 </div>
-                <div className="d-flex flex-column flex-shrink-0 p-2 w-small bg-dark mt-5">
-                <ul className="nav nav-pills flex-column mb-auto pt-3 px-1">
-                    <li class="nav-item py-2">
-                    <a href="#" className="nav-link active" aria-current="page">
-                        <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                        Home
-                    </a>
-                    </li>
-                    <li className="nav-item py-2">
-                        <a href="#" className="nav-link" aria-current="page">
-                            <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                            Messages
-                        </a>
-                    </li>
-                    <li className="nav-item py-2">
-                        <a href="#" className="nav-link" aria-current="page">
-                            <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                            Events
-                        </a>
-                    </li>
-                    <li className="nav-item py-2">
-                        <a href="#" className="nav-link" aria-current="page">
-                            <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                            Documents
-                        </a>
-                    </li>
-                    <li className="nav-item py-2">
-                        <a href="#" className="nav-link" aria-current="page">
-                            <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                            Orientation
-                        </a>
-                    </li>
-                    <li className="nav-item py-2">
-                        <a href="#" className="nav-link" aria-current="page">
-                            <svg className="bi pe-none me-2" width="16" height="16"></svg>
-                            People Directory
-                        </a>
-                    </li>
-                </ul>
-                </div>
-                <div className="d-flex flex-column flex-shrink-0 pt-10 w-small bg-dark">
+
+
+            </div>
+
+            <div className="d-flex justify-content-between container">
+                <div className="p-2 w-small mt-5">
+                    <ul className="nav nav-pills flex-column mb-auto pt-3 px-1">
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link active" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                Home
+                            </a>
+                        </li>
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                Messages
+                            </a>
+                        </li>
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                Events
+                            </a>
+                        </li>
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                Documents
+                            </a>
+                        </li>
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                Orientation
+                            </a>
+                        </li>
+                        <li className="nav-item py-2">
+                            <a href="#" className="nav-link" aria-current="page">
+                                <svg className="bi pe-none me-2" width="16" height="16"></svg>
+                                People Directory
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
-             </div>
+                <div className="list-group mt-5 pt-4 w-50">
+                    <div className="col-md-12">
+                        <h2>Good Morning, Flash!</h2>
+                        <div className="h-80 mt-3 p-5 text-white bg-secondary rounded-3">
+                            <p> Current Project: A, B</p>
+                            <p> Worked Hours: </p>
+                            <div className="progress">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div className="list-group mt-5 pt-4 w-25">
+                <h4 className="mb-4">Upcoming Events:</h4>
+
+                <a href=" " className="list-group-item list-group-item-action active" aria-current="true">
+                    <div className="d-flex w-100 justify-content-between">
+                        <h5 className="mb-1">Client Meeting</h5>
+                        <small>Oct 1st</small>
+                    </div>
+                    <p className="mb-1">Meeting info:</p>
+                    <small>Location:</small>
+                </a>
+
+                <a href="#" className="list-group-item list-group-item-action">
+                    <div className="d-flex w-100 justify-content-between">
+                        <h5 className="mb-1">Picnic</h5>
+                        <small className="text-muted">Oct 1st</small>
+                    </div>
+                    <p className="mb-1">Meeting info:</p>
+                    <small>Location:</small>
+                </a>
+
+                <a href="#" className="list-group-item list-group-item-action">
+                    <div className="d-flex w-100 justify-content-between">
+                        <h5 className="mb-1">Daily Scrum</h5>
+                        <small className="text-muted">Oct 1st</small>
+                    </div>
+                    <p className="mb-1">Meeting info:</p>
+                    <small>Location:</small>
+                </a>
+
+            </div>
+            </div>
          </header>
     )
 }
